@@ -1,0 +1,172 @@
+.attribution{
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+   
+    
+}
+
+.container{
+    width: 40vw;
+    height: 60vh;
+    background-color: white;
+    margin: 10% auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+.leftItem{
+    background: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    flex-basis: 50%;
+ 
+
+}
+
+
+.rightItem{
+    flex-basis: 50%;
+    background-size: cover;
+ 
+
+ 
+
+
+}
+
+.rightItem .Text{
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+
+.rightItem .upperText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+}
+
+.rightItem .headText{
+    margin-top: 10px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 26px;
+    
+    color: hsl(212, 21%, 14%);
+}
+
+.rightItem .paraText{
+    margin-top: 7px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+
+    
+
+}
+
+.rightItem .priceText{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    
+}
+
+.rightItem .priceText .newPr{
+    font-size: 26px;
+}
+
+.rightItem .priceText .olderPr{
+    margin-left: 8px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.btn button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 205px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.btn button:hover{
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+}
+
+@media(max-width: 1400px){
+    .container{
+        width: 500px;
+        height: 400px; 
+        margin: 10% auto 0 auto;
+
+    }
+
+
+}
+
+
+@media(max-width: 375px){
+    .container{
+        width: 320px;
+        height: 600px; 
+        margin-top: 50%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .attribution{
+      
+        bottom: 0px;
+        left: 55px;
+    }
+
+    .leftItem{
+        background: url("images/image-product-mobile.jpg");
+        background-size: cover;
+        flex-basis: 38%;
+    
+    }
+
+    .rightItem{
+        flex-basis: 62%;
+    }
+
+    .btn button{
+        width: 280px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+    
+
+
+
